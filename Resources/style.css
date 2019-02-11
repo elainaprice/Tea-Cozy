@@ -1,3 +1,11 @@
+* {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
 /*header*/
 
 header {
@@ -15,6 +23,7 @@ header {
   opacity: .9;
 }
 
+/*Logo in Header alignment*/
 .logo {
   display: flex;
   align-items: center;
@@ -22,40 +31,42 @@ header {
   flex-grow: 1;
 }
 
+/*Logo image in header format*/
 .logo img {
   height: 50px;
 }
 
+/*Navigation Bar alignment*/
 nav span {
   display: inline-block;
   padding: 20px 10px;
 }
 
+/*Navigation Bar format*/
 span a {
   color: seashell;
 }
 
 /*body*/
-
 body {
   background-color: black;
 }
 
+/*Mission Content alignment*/
 .content {
   display: flex;
   justify-content: center;
 }
 
-.image-content h2, h4 {
-  position: flex;
-  background-color: black;
-  color: seashell;
-  z-index: 2;
-  text-align: center;
-
+/*Mission Container alignment*/
+.mission-container {
+  padding-top: 69px;
+  display: flex;
+  justify-content: center;
 }
 
-.content .image-content {
+/*Main content image alignment & format*/
+.image-content {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -64,3 +75,34 @@ body {
   width: 1200px;
   z-index: -1;
 }
+
+.mission-bar {
+  margin: auto;
+  width: 100%;
+}
+
+/*Main content2*/
+.main-content2 {
+  display: flex;
+  justify-content: center;
+}
+
+/*Tea of the Month - Sizing Characteristics, Padding*/
+.tea-otm {
+  padding-top: 70px;
+  width: 1000px;
+}
+
+/*Tea Itmes alignment*/
+.all-tea {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*Sizing of Tea Elements */
+.tea-item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
