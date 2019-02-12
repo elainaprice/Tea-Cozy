@@ -1,9 +1,9 @@
 * {
   font-family: Helvetica;
   color: seashell;
-  background-color: black;
   opacity: 0.9;
   text-align: center;
+  background-color: black;
 }
 
 /*header*/
@@ -17,10 +17,7 @@ header {
   width: 100%;
   z-index: 1;
   border-bottom: 1px solid seashell;
-  font-family: Helvetica;
   font-size: 22px;
-  color: seashell;
-  opacity: .9;
 }
 
 /*Logo in Header alignment*/
@@ -47,11 +44,6 @@ span a {
   color: seashell;
 }
 
-/*body*/
-body {
-  background-color: black;
-}
-
 /*Mission Content alignment*/
 .content {
   display: flex;
@@ -63,6 +55,7 @@ body {
   padding-top: 69px;
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 
 /*Main content image alignment & format*/
@@ -101,8 +94,52 @@ body {
   flex-wrap: wrap;
 }
 
-/*Sizing of Tea Elements */
+/*Sizing of Tea Elements*/
 .tea-item img {
   height: 200px;
   width: 300px;
   margin: 10px;
+}
+
+/*Main Content3 alignment*/
+.main-content3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+/*Locations*/
+.locations {
+  background-image: url("images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  opacity: 1;
+}
+
+/*Properties of Location Title*/
+.locations-title {
+  margin-top: 70px;
+
+}
+
+/*Location Boxes Container - Alignment*/
+.location-boxes-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*Location Box Items Format*/
+.location-box-item {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  opacity: 1;
+  border: 1px solid seashell;
+}
+
+/*Copyright Container*/
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
