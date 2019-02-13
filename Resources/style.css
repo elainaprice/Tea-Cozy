@@ -3,11 +3,14 @@
   color: seashell;
   opacity: 0.9;
   text-align: center;
+}
+
+/*body*/
+body {
   background-color: black;
 }
 
-/*header*/
-
+/*header alignment and formatting*/
 header {
   display: flex;
   align-items: center;
@@ -28,7 +31,7 @@ header {
   flex-grow: 1;
 }
 
-/*Logo image in header format*/
+/*Logo image in header formatting*/
 .logo img {
   height: 50px;
 }
@@ -39,7 +42,7 @@ nav span {
   padding: 20px 10px;
 }
 
-/*Navigation Bar format*/
+/*Navigation Bar formatting*/
 span a {
   color: seashell;
 }
@@ -58,20 +61,24 @@ span a {
   background-color: black;
 }
 
-/*Main content image alignment & format*/
+/*Main content image alignment & formatting*/
 .image-content {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-image: url("images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
-  z-index: -1;
 }
 
-.mission-bar {
+/*Main content mission bar alignment & formatting*/
+.mission-bar, h2, h4 {
   margin: auto;
   width: 100%;
+  background-color: black;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  opacity: 1;
 }
 
 /*Main content2*/
@@ -80,7 +87,7 @@ span a {
   justify-content: center;
 }
 
-/*Tea of the Month - Sizing Characteristics, Padding*/
+/*Tea of the Month formatting*/
 .tea-otm {
   padding-top: 70px;
   width: 1000px;
@@ -94,7 +101,7 @@ span a {
   flex-wrap: wrap;
 }
 
-/*Sizing of Tea Elements*/
+/*Tea Elements formatting*/
 .tea-item img {
   height: 200px;
   width: 300px;
@@ -116,25 +123,31 @@ span a {
   opacity: 1;
 }
 
-/*Properties of Location Title*/
-.locations-title {
+/*Location Title Alignment*/
+.locations-title h2 {
   margin-top: 70px;
-
+  background-color: transparent;
 }
 
-/*Location Boxes Container - Alignment*/
+/*Location Boxes Container Alignment*/
 .location-boxes-container {
   display: flex;
   justify-content: center;
 }
 
-/*Location Box Items Format*/
+/*Location Box Items Formatting*/
 .location-box-item {
   height: 300px;
   width: 300px;
   margin: 20px;
   opacity: 1;
-  border: 1px solid seashell;
+  background-color: black;
+}
+
+/*Location Box Span Formatting*/
+.location-span {
+  display: block;
+  line-height: 400%;
 }
 
 /*Copyright Container*/
@@ -142,4 +155,5 @@ span a {
   display: flex;
   justify-content: flex-start;
   text-align: left;
+  padding-left: 20px;
 }
